@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="Chapter08-chirper-app-complete,ScalaMicroservices,chapter-4,chapter04_6065,chirper-app-complete,chirper-app-complete_1398,chirper-app-complete_890,chirper-app-primer_3657,chriper-app-primer,first-app_9022,scalamicroservices_2399,search-app_9891" />
+    <profile name="sbt 2" modules="SearchApp,auth-app,commons,first-app,github-app,rank-app,so-app,web-app">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
+    <profile name="sbt 3" modules="chirper-app-complete-front-end,front-end">
+      <option name="experimental" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
+    <profile name="sbt 4" modules="activity-stream-api,activity-stream-impl,chirp-api,chirp-impl,chirper-app-complete-activity-stream-api,chirper-app-complete-activity-stream-impl,chirper-app-complete-chirp-api,chirper-app-complete-chirp-impl,chirper-app-complete-friend-api,chirper-app-complete-friend-impl,chirper-app-complete-friend-recommendation-api,chirper-app-complete-friend-recommendation-impl,friend-api,friend-impl,friend-recommendation-api,friend-recommendation-impl">
+      <option name="experimental" value="true" />
+    </profile>
+  </component>
+</project>

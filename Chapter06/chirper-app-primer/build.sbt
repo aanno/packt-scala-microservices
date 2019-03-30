@@ -2,9 +2,10 @@ name := "chriper-app-primer"
 
 organization in ThisBuild := "sample.chirper"
 
+// scalaVersion := "2.11.12"
 scalaVersion in ThisBuild := "2.12.8"
 
-val macwire = "com.softwaremill.macwire" %% "macros" % "2.2.5" % "provided"
+val macwire = "com.softwaremill.macwire" %% "macros" % "2.3.2" % "provided"
 
 lazy val friendApi = project("friend-api")
   .settings(
@@ -72,11 +73,11 @@ lazy val frontEnd = project("front-end")
       "org.webjars.npm" % "react" % "16.8.5",
       "org.webjars.npm" % "react-router" % "5.0.0",
       "org.webjars.npm" % "jquery" % "3.3.1",
-      "org.webjars.npm" % "foundation" % "5.3.0",
+      "org.webjars.npm" % "foundation-sites" % "6.3.1",
       macwire,
       lagomScaladslServer
-    ),
-    ReactJsKeys.sourceMapInline := true
+    )
+    //, ReactJsKeys.sourceMapInline := true
   )
 
 def project(id: String) = Project(id, base = file(id))
