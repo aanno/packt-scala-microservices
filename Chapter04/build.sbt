@@ -69,7 +69,7 @@ val playSlickEvolutions = "com.typesafe.play" %% "play-slick-evolutions" % playS
 val jbcrypt = "org.mindrot" % "jbcrypt" % jbcryptV
 // val parserCombinator = "org.scala-lang.modules" % "scala-parser-combinators_2.12" % parserCombinatorV
 val parserCombinator = "org.scala-lang.modules" %% "scala-parser-combinators" % parserCombinatorV
-val playJson = "com.typesafe.play" %% "play-json" % "2.7.0"
+val playJson = "com.typesafe.play" %% "play-json" % "2.7.2"
 val scalaTest = "org.scalatest" %% "scalatest" % "3.0.7" % "test"
 val runAll = inputKey[Unit]("Runs all subprojects")
 

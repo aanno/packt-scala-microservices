@@ -10,7 +10,7 @@
         <parameter value="utf8" />
       </parameters>
     </profile>
-    <profile name="sbt 3" modules="chirper-app-complete-front-end,front-end">
+    <profile name="sbt 3" modules="chirper-app-complete-front-end,chirper-app-primer-front-end,front-end">
       <option name="experimental" value="true" />
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
@@ -19,7 +19,7 @@
         <parameter value="utf8" />
       </parameters>
     </profile>
-    <profile name="sbt 4" modules="activity-stream-api,activity-stream-impl,chirp-api,chirp-impl,chirper-app-complete-activity-stream-api,chirper-app-complete-activity-stream-impl,chirper-app-complete-chirp-api,chirper-app-complete-chirp-impl,chirper-app-complete-friend-api,chirper-app-complete-friend-impl,chirper-app-complete-friend-recommendation-api,chirper-app-complete-friend-recommendation-impl,friend-api,friend-impl,friend-recommendation-api,friend-recommendation-impl">
+    <profile name="sbt 4" modules="activity-stream-api,activity-stream-impl,chirp-api,chirp-impl,chirper-app-complete-activity-stream-api,chirper-app-complete-activity-stream-impl,chirper-app-complete-chirp-api,chirper-app-complete-chirp-impl,chirper-app-complete-friend-api,chirper-app-complete-friend-impl,chirper-app-complete-friend-recommendation-api,chirper-app-complete-friend-recommendation-impl,chirper-app-primer-activity-stream-api,chirper-app-primer-activity-stream-impl,chirper-app-primer-chirp-api,chirper-app-primer-chirp-impl,chirper-app-primer-friend-api,chirper-app-primer-friend-impl,friend-api,friend-impl,friend-recommendation-api,friend-recommendation-impl">
       <option name="experimental" value="true" />
     </profile>
   </component>

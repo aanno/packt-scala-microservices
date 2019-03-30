@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="$USER_HOME$/.sdkman/candidates/sbt/current/bin/sbt-launch.jar" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter02/first-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter02/first-app" />
+            <option value="$PROJECT_DIR$/Chapter02/first-app/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter03/search-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter03/search-app" />
+            <option value="$PROJECT_DIR$/Chapter03/search-app/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter04" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter04" />
+            <option value="$PROJECT_DIR$/Chapter04/auth-app" />
+            <option value="$PROJECT_DIR$/Chapter04/commons" />
+            <option value="$PROJECT_DIR$/Chapter04/github-app" />
+            <option value="$PROJECT_DIR$/Chapter04/project" />
+            <option value="$PROJECT_DIR$/Chapter04/rank-app" />
+            <option value="$PROJECT_DIR$/Chapter04/so-app" />
+            <option value="$PROJECT_DIR$/Chapter04/web-app" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter06/chirper-app-primer" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/activity-stream-api" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/activity-stream-impl" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/chirp-api" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/chirp-impl" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/friend-api" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/friend-impl" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/front-end" />
+            <option value="$PROJECT_DIR$/Chapter06/chirper-app-primer/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter07/chirper-app-complete" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/activity-stream-api" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/activity-stream-impl" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/chirp-api" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/chirp-impl" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/friend-api" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/friend-impl" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/friend-recommendation-api" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/friend-recommendation-impl" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/front-end" />
+            <option value="$PROJECT_DIR$/Chapter07/chirper-app-complete/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter08/chirper-app-complete" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/activity-stream-api" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/activity-stream-impl" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/chirp-api" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/chirp-impl" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/friend-api" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/friend-impl" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/friend-recommendation-api" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/friend-recommendation-impl" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/front-end" />
+            <option value="$PROJECT_DIR$/Chapter08/chirper-app-complete/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
