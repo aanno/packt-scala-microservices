@@ -15,7 +15,7 @@ lazy val `chapter-4` = (project in file(".")).aggregate(
 lazy val commonSettings = Seq(
   organization := "com.scalamicroservices",
   scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8"),
-  scalaVersion := "2.12.2",
+  scalaVersion := "2.12.8",
   resolvers ++= Seq("Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/",
     "JBoss" at "https://repository.jboss.org/")
 )
@@ -55,11 +55,11 @@ def PlayProject(name: String): Project = (
     enablePlugins PlayScala
   )
 
-val slickV = "3.2.1"
-val h2V = "1.4.193"
-val playSlickV = "3.0.1"
+val slickV = "3.3.0"
+val h2V = "1.4.199"
+val playSlickV = "4.0.0"
 val jbcryptV = "0.4"
-val parserCombinatorV = "1.0.5"
+val parserCombinatorV = "1.1.1"
 
 val slick = "com.typesafe.slick" %% "slick" % slickV
 val slickHikariCP = "com.typesafe.slick" %% "slick-hikaricp" % slickV
@@ -67,9 +67,10 @@ val h2 = "com.h2database" % "h2" % h2V
 val playSlick = "com.typesafe.play" %% "play-slick" % playSlickV
 val playSlickEvolutions = "com.typesafe.play" %% "play-slick-evolutions" % playSlickV
 val jbcrypt = "org.mindrot" % "jbcrypt" % jbcryptV
-val parserCombinator = "org.scala-lang.modules" % "scala-parser-combinators_2.12" % parserCombinatorV
-val playJson = "com.typesafe.play" %% "play-json" % "2.6.3"
-val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+// val parserCombinator = "org.scala-lang.modules" % "scala-parser-combinators_2.12" % parserCombinatorV
+val parserCombinator = "org.scala-lang.modules" %% "scala-parser-combinators" % parserCombinatorV
+val playJson = "com.typesafe.play" %% "play-json" % "2.7.0"
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.7" % "test"
 val runAll = inputKey[Unit]("Runs all subprojects")
 
 

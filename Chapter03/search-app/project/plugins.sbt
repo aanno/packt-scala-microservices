@@ -1,5 +1,8 @@
-logLevel := Level.Warn
+// The Typesafe repository
+resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/maven-releases/"
 
-resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
+addSbtCoursier
 
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.6.3")
+// Use the Play sbt plugin for Play projects
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.7.0")
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")

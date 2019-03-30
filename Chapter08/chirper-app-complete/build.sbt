@@ -92,10 +92,10 @@ lazy val frontEnd = project("front-end")
     version := "1.0-SNAPSHOT",
     routesGenerator := StaticRoutesGenerator,
     libraryDependencies ++= Seq(
-      "org.webjars" % "react" % "0.14.3",
-      "org.webjars" % "react-router" % "1.0.3",
-      "org.webjars" % "jquery" % "2.2.0",
-      "org.webjars" % "foundation" % "5.3.0",
+      "org.webjars.npm" % "react" % "16.8.5",
+      "org.webjars.npm" % "react-router" % "5.0.0",
+      "org.webjars.npm" % "jquery" % "3.3.1",
+      "org.webjars.npm" % "foundation" % "5.3.0",
       macwire,
       lagomScaladslServer
     ),
@@ -108,7 +108,7 @@ def project(id: String) = Project(id, base = file(id))
   )
   .settings(
     libraryDependencies ++= Seq(
-      "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.7.3" // actually, only api projects need this
+      "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.9.8" // actually, only api projects need this
     )
   )
 
